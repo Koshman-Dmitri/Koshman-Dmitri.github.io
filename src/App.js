@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Finally i`ve started React!
+          Test
         </p>
       </header>
     </div>
