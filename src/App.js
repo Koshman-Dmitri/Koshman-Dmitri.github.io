@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
-import Counter from './components/counter';
-import UserInput from './components/input';
+import Counter from './components/Counter';
+import UserInput from './components/Input';
 
 function App() {
   const [count, setCount] = useState(0);
