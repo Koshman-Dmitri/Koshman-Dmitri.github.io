@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Finally i`ve started React!
+          Let`s try some React!
         </p>
         <Counter onCountClickUp={() => setCount(count + 1)}
                  onCountClickDown={() => setCount(count - 1)}

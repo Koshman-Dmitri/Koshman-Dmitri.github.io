@@ -1,4 +1,4 @@
-import '../userInput.css';
+import '../Styles/userInput.css';
 
 export default function UserInput (props) {
     return (
