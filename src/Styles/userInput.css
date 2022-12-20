@@ -18,6 +18,10 @@
     border-color: gold;
 }
 
+.input::placeholder {
+    font-size: 12px;
+}
+
 .message {
     margin: 0;
     margin-top: 10px;
