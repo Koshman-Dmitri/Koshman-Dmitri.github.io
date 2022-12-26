@@ -4,6 +4,10 @@ import { useState } from "react";
 import Counter from './components/Counter';
 import UserInput from './components/Input';
 
+import { Context } from './Context';
+import ComponentA from './components/ComponentA';
+import ComponentB from './components/ComponentB';
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -12,6 +16,7 @@ function App() {
     setInput(e.target.value);
   };
 
+  const [context, setContext] = useState('default context value');
 
   return (
     <div className="App">
@@ -24,6 +29,12 @@ function App() {
                  onCountClickDown={() => setCount(count - 1)}
                  count={count} />
         <UserInput onInputChange={handlerInput} message={input} count={count} />
+
+        <Context.Provider value={ [context, setContext] }>
+          <ComponentA />
+          <ComponentB />
+        </Context.Provider>
+        
       </header>
     </div>
   );

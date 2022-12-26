@@ -1,8 +1,7 @@
-//import '../Styles/counterStyle.css';
 import { useEffect } from 'react';
 import style from '../Styles/counter.module.css';
 
-function Counter (props) {
+function Counter(props) {
   useEffect(() => {
     document.title = `Вы нажали ${props.count} раз`;
   })

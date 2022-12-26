@@ -1,6 +1,6 @@
 import '../Styles/userInput.css';
 
-export default function UserInput (props) {
+export default function UserInput(props) {
     return (
         <div>
             <input className="input" type="text" onChange={props.onInputChange} placeholder="Message" />
