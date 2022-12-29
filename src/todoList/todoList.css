@@ -1,0 +1,66 @@
+.todo-list {
+    margin: 0 55px 15px;
+    max-height: 230px;
+    position: relative;
+}
+
+.todo {
+    margin: 7px 0;
+    display: flex;
+}
+
+.todo:nth-child(1) {
+    margin-top: 0;
+}
+
+.todo:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.todo li {
+    padding-left: 16px;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: rgb(72, 72, 72);
+}
+
+.todo li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    z-index: 3;
+    width: 4px;
+    height: 100%;
+    background-color: orange;
+}
+
+.delete-button {
+    display: inline-block;
+    width: 20%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-left: none;
+    border-radius: 0;
+    font-size: 18px;
+    color: rgb(194, 81, 61);
+    background-color: rgb(40, 40, 40);
+}
+
+.delete-button:hover {
+    background-color: rgba(49, 49, 48, .1);
+    transition: background-color .2s linear;
+}
+
+.empty {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: orange;
+}

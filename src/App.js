@@ -7,6 +7,7 @@ import UserInput from './components/Input';
 import { Context } from './Context';
 import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
+import TodoApp from './todoList/TodoApp';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,7 +35,8 @@ function App() {
           <ComponentA />
           <ComponentB />
         </Context.Provider>
-        
+
+        <TodoApp />
       </header>
     </div>
   );

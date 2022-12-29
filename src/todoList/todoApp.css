@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.todoApp-wrapper {
+    margin: 10px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: 10;
+    min-width: 530px;
+    height: 380px;
+    border-radius: 6px;
+    background-color: rgb(63, 60, 60);
+}
+
+.title {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: rgb(61, 194, 149);
+}

@@ -1,0 +1,32 @@
+.input-wrapper {
+    padding: 0 55px;
+    margin-bottom: 20px;
+    border: 0px solid white;
+    display: flex;
+}
+
+.input-wrapper input {
+    padding: 8px 16px;
+    width: 80%;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: rgb(49, 49, 48);
+}
+
+.add-button {
+    display: inline-block;
+    width: 20%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-left: none;
+    border-radius: 0;
+    font-size: 18px;
+    color: rgb(61, 194, 149);
+    background-color: rgb(49, 49, 48);
+}
+
+.add-button:hover {
+    background-color: rgba(49, 49, 48, .1);
+    transition: background-color .2s linear;
+}

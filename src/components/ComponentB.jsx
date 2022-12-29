@@ -5,7 +5,7 @@ export default function ComponentB() {
     const context = useContext(Context);
     return (
         <div>
-            ComponentB: {context};
+            ComponentB: {context}
         </div>
     );
 }
