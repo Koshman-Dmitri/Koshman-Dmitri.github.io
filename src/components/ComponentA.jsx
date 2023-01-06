@@ -6,7 +6,7 @@ const ComponentA = () => {
     return (
         <div>
             ComponentA:
-            <button onClick={ () => setContext('New Value') }>
+            <button onClick={() => setContext('New Value')}>
                 Change Context Value
             </button>
         </div>

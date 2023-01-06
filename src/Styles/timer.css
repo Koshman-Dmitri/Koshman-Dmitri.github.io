@@ -1,0 +1,25 @@
+.stopwatch {
+    padding: 10px 10px 10px 20px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    z-index: 15;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 160, 11);
+}
+
+.stopwatch button {
+    margin-left: 10px;
+    border: 2px solid rgba(5, 189, 97, 0.89);
+    box-shadow: 1px 1px 1px palevioletred;
+}
+
+.stopwatch button:hover {
+    opacity: 0.9;
+    border: 2px solid palevioletred;
+}
+
+.stopwatch button:active {
+    box-shadow: -1px -1px 1px palevioletred;
+}

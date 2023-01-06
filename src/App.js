@@ -3,6 +3,7 @@ import './App.css';
 import { useState } from "react";
 import Counter from './components/Counter';
 import UserInput from './components/Input';
+import Timer from './components/Timer';
 
 import { Context } from './Context';
 import ComponentA from './components/ComponentA';
@@ -35,7 +36,8 @@ function App() {
           <ComponentA />
           <ComponentB />
         </Context.Provider>
-
+        
+        <Timer />
         <TodoApp />
       </header>
     </div>

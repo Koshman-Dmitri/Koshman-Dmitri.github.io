@@ -9,10 +9,10 @@ function Counter(props) {
   return (
     <div>
       <h3 className={style.title}>Count = {props.count}</h3>
-      <button className={style.btn_up} onClick={ props.onCountClickUp }>
+      <button className={style.btn_up} onClick={props.onCountClickUp}>
         Увеличить
       </button>
-      <button className={style.btn_down} onClick={ props.onCountClickDown }>
+      <button className={style.btn_down} onClick={props.onCountClickDown}>
         Уменьшить
       </button>
     </div>
